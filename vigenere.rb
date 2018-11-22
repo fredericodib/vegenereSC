@@ -123,8 +123,10 @@ end
 
 def print_msg
   puts "\n\n#################### Mensagem ####################\n\n"
-  for i in 0...$tam_kay
-    print i+1
+  for j in 0..3
+    for i in 0...$tam_kay
+      print i+1
+    end
   end
   print "\n"
 
